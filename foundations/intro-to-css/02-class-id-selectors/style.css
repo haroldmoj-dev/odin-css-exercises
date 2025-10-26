@@ -1,12 +1,5 @@
 /* Add CSS Styling */
 
-/*
-* **The second element**: blue text and a font size of 36px
-
-* **The third element**: in addition to the styles for all odd numbered elements, add a font size of 24px
-
-* **The fourth element**: a light green background, a font size of 24px, and bold */
-
 .redclass {
     background-color: rgb(255, 181, 192);
     font-family: Verdana, "DejaVu Sans", sans-serif
