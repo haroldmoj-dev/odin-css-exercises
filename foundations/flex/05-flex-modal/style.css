@@ -72,33 +72,31 @@ button.cancel {
   color: royalblue;
 }
 
-.set, .top, .bottom {
+.modal, .top, .bottom {
   display: flex;
 }
 
 .modal {
   padding: 10px;
-  display: flex;
   gap: 10px;
+}
+
+.top {
+  justify-content: space-between;
+  margin-bottom: 10px;
 }
 
 .icon {
   flex-shrink: 0;
 }
 
-.set {
-  flex-direction: column;
-  gap: 10px;
-}
-
-.top {
-  justify-content: space-between;
-  align-items: center;
-}
-
 .header {
   font-size: 1.2rem;
   font-weight: bold;
+}
+
+.text {
+  margin-bottom: 10px;
 }
 
 .bottom {
